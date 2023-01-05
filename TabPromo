@@ -1,0 +1,87 @@
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+public class Testall {
+
+/*
+ 	 
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		    	        File f = new File("C:\\Users\\mmizanur\\eclipse-workspace\\IFRs\\src\\GLCodes_1");
+		    	        File[] files = f.listFiles();
+		    	        for (File file : files) {
+		    	            System.out.println(file.getName());  
+		    	        }
+	}   	        
+}
+		    	     
+//Java program to demonstrate the 
+//use of list() function 
+
+import java.io.*; 
+
+public class solution { 
+ public static void main(String atry-catch  { 
+
+     // try catch block to handle exceptions 
+     try { 
+
+         // Create a file object 
+         File f = new File("f:\\program"); 
+
+         // Create a FilenameFilter 
+         FilenameFilter filter = new FilenameFilter() { 
+
+             public boolean accept(File f, String name) 
+             { 
+                 return name.startsWith("12"); 
+             } 
+         }; 
+
+         // Get all the names of the files present 
+         // in the given directory 
+         // and whose names start with "12" 
+         String[] files = f.list(filter); 
+
+         System.out.println("Files are:"); 
+
+         // Display the names of the files 
+         for (int i = 0; i < files.length; i++) { 
+             System.out.println(files[i]); 
+         } 
+     } 
+     catch (Exception e) { 
+         System.err.println(e.getMessage()); 
+     } */
+	
+	/*	
+	public static void main(String[] args) {
+		String z = Testzanif("BB");
+		System.out.println (z);
+		
+	}
+
+public static  String Testzanif(String i) {
+	
+	String b = i+"5";
+	//System.out.println (b);
+	return b;
+	
+} */
+	
+
+	public static void main(String[] args) {
+		teststringsplit();
+		
+	}
+	private static void teststringsplit() {
+		String line = "887276451510,Samsung Galaxy Z Flip 5G Mystic Grey,1580,1580,260,580,100,700,100,700,100,0,0,480,0,816,216,816,216,816,216,816,336,816,336";
+		String[] splitString = line.split(",");
+		System.out.println(splitString.length);
+
+		System.out.println(splitString[1]);
+		
+		
+	}
+	
+ } 
